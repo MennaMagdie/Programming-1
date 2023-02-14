@@ -1,3 +1,3 @@
 # Programming-1
-Group final project for programming 1 course.
-Library Management System
+Library Management System project for programming 1 course.
+Contributers: Saifeldeen Adel/ Nour Mohammed/ Ali Elhelaly/ Menna Magdy
