@@ -64,7 +64,7 @@ int findBook(char isbn[])
 
 char* monthName(int n)
 {
-    char* month = malloc( 10 * sizeof(char));
+    char* month = (char*)malloc( 10 * sizeof(char));
 
     switch (n)
     {
@@ -125,7 +125,7 @@ void printBook(int index)
 char *stringToLower(char str[])
 {
     int i;
-    char *p = malloc(250 * sizeof(char));
+    char *p = (char*)malloc(250 * sizeof(char));
     for (i = 0; i <= strlen(str); i++)
     {
         p[i] = tolower(str[i]);
